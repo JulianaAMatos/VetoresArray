@@ -109,3 +109,29 @@ const arrayModificado = arrayMap.map((arrayMap) => {
 foreachtArray.forEach((nome) => {
     console.log(nome)
  });
+
+ //***********Método 09 -INCLUDES*******************//
+ //Procura se tem um valor dentro do array, se estiver retorna "True", caso contrário "False".
+ // Se tiver um quadrado roxo é um método e se tiver um tijolo azul uma propriedade
+ const frutas = ['Banana', 'Laranja', 'Maracujá', 'Maçã'];
+       console.log(frutas)
+        console.log(frutas.includes("Maracujá"))//true
+        console.log(frutas.includes("Abacate"))//false
+
+//***********Método 10- SORT*******************//
+
+// // O método sort organiza um array em ordem alfabética se estiver vazio(). 
+const frutass = ['Banana', 'Laranja', 'Maracujá', 'Maçã', 'Abacate'];
+       console.log(frutass)
+// //Aplicando o método sort
+     console.log(frutass.sort());
+
+// //***********Método 11- REVERSE*******************//
+
+// //Organiza o código em ordem alfabética, porém de trás para frente.
+
+const frutas2 = ['Abacate','Banana', 'Laranja', 'Maracujá', 'Maçã', ];
+       console.log(frutas2)
+//Aplicando o método reverse
+     console.log(frutas2.reverse());
+    

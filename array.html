@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays em JavaScript</title>
+</head>
+<body>
+    <h1>Métodos Includes()</h1>
+    <p id="Demo1"></p>
+    <p id="Demo2"></p>
+    <p id="Demo3"></p>
+    <p id="Demo4"></p>
+    <p id="Demo5"></p>
+
+    <script>
+        const frutas = ['Banana', 'Laranja', 'Maracujá', 'Maçã', 'Abacate'];
+        document.getElementById("Demo1").innerHTML = frutas
+        document.getElementById("Demo2").innerHTML = frutas.toSorted().toReversed();
+        document.getElementById("Demo3").innerHTML = frutas.at(2)//seleciona o segundo elemento do array
+
+        const numeros = [45, 4, 9, 16, 25]
+        let txt= "";
+        minhaFuncao('Cachorro', 1, numeros)
+        function minhaFuncao(valor, indice, array){
+            txt += valor + "<br>;"
+        } 
+         let a= 2
+         let b= 3
+         let c 
+        
+          a = 100
+          b =  200
+          document.getElementById("Demo4").innerHTML=soma()
+
+          a = 100000
+          b = 234567
+        
+          document.getElementById("Demo5").innerHTML=soma()
+        
+          function soma(){ return  a + b ;}
+
+
+    </script>
+</body>
+</html>
